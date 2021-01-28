@@ -26,5 +26,5 @@ jobs:
     - name: Push to docker hub :latest
       uses: actions-hub/docker@master
       with:
-       args: cjjorgensen/tp1_hello_world:latest
+       args: docker push cjjorgensen/tp1_hello_world:latest
  
